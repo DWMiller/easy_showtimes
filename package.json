@@ -4,8 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "author": "David Miller",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "react-scripts": "0.7.0",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-cors": "0.0.3",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "showtimes": "^2.1.2"
+  }
 }
